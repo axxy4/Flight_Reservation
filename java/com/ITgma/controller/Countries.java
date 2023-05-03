@@ -81,6 +81,6 @@ public class Countries {
 	  countryService.deleteFavourite(id);
 	  return new ResponseEntity<>("Favourite deleted successfully", HttpStatus.OK);
 	}
-
+	
 	
 }
